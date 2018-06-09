@@ -6,4 +6,8 @@
       <class name="com.selenium.PracticOne.FailTestDemo"/>
     </classes>
   </test> <!-- Test -->
+  <listeners>
+  		<listener class-name="com.selenium.PracticOne.RetryListener"/>
+  		<listener class-name="com.selenium.PracticOne.TestNGListener"/>
+  </listeners>
 </suite> <!-- Suite -->
