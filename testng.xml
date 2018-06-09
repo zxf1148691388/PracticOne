@@ -3,10 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.selenium.PracticOne.HellowWorld"/>
+      <class name="com.selenium.PracticOne.FailTestDemo"/>
     </classes>
   </test> <!-- Test -->
-  <listeners>
-  		<listener class-name="com.selenium.PracticOne.RetryListener"/>
-  </listeners>
 </suite> <!-- Suite -->
